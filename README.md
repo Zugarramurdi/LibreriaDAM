@@ -39,8 +39,42 @@
 🛠 **Logs y Depuración**  
  - Registro de eventos y errores con timestamps para facilitar la depuración. 
 
+## 🏗 Estructura de proyecto 🏗
 
-## 🤖 Technologies 🤖
+📂 LibreriaDAM  
+ ├── 📁 src/com/miempresa/libreriadam  
+ │   ├── StringUtils.java → Métodos para manipular Strings  
+ │   ├── NumeroUtils.java → Funciones matemáticas  
+ │   ├── ArrayUtils.java → Métodos para arrays y listas  
+ │   ├── FechaUtils.java → Funciones para manipular fechas  
+ │   ├── ArchivoUtils.java → Métodos para trabajar con archivos  
+ │   ├── HiloUtils.java → Funciones para multithreading  
+ ├── 📄 .gitignore → Archivos a ignorar en Git  
+ ├── 📄 README.md 
+
+ ## 🤝 Contribuciones 🤝
+¡Las contribuciones son bienvenidas! 🚀
+
+Si deseas colaborar en este proyecto, sigue estos pasos:
+
+### **1. Fork de este repositorio y clonalo desde tu IDE de uso habitual**
+
+### **2. Crea una rama con el nombre de tu mejora:**
+  - git checkout -b nombre-nueva-rama
+
+### **3. Realiza los cambios y haz un commit:**
+  - git commit -m "Añadida nueva función en StringUtils"
+### **4. Sube los cambios a tu Fork:**
+  - git push origin nombre-nueva-rama
+### **5. Abre un Pull Request y explica tus cambios.**
+
+Si tienes dudas, revisa las Issues o crea una nueva para discutir mejoras.
+
+
+
+
+
+## 🤖 Tecnologias 🤖
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
 
 		
