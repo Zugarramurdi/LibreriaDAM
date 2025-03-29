@@ -1,4 +1,4 @@
 package com.dam.libreriadam;
 
-public class StringsUtil {
+public class StringUtil {
 }
