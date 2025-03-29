@@ -42,13 +42,14 @@
 ## 🏗 Estructura de proyecto 🏗
 
 📂 LibreriaDAM  
- ├── 📁 src/com/miempresa/libreriadam  
- │   ├── StringUtils.java → Métodos para manipular Strings  
- │   ├── NumeroUtils.java → Funciones matemáticas  
- │   ├── ArrayUtils.java → Métodos para arrays y listas  
- │   ├── FechaUtils.java → Funciones para manipular fechas  
- │   ├── ArchivoUtils.java → Métodos para trabajar con archivos  
- │   ├── HiloUtils.java → Funciones para multithreading  
+ ├── 📁 src com/miempresa/libreriadam
+ │    ├── 📁 com.dam.libreriadam
+ │         ├── StringUtils.java → Métodos para manipular Strings  
+ │         ├── NumeroUtils.java → Funciones matemáticas  
+ │         ├── ArrayUtils.java → Métodos para arrays y listas  
+ │         ├── FechaUtils.java → Funciones para manipular fechas  
+ │         ├── ArchivoUtils.java → Métodos para trabajar con archivos  
+ │         ├── HiloUtils.java → Funciones para multithreading  
  ├── 📄 .gitignore → Archivos a ignorar en Git  
  ├── 📄 README.md 
 
