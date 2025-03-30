@@ -106,4 +106,10 @@ public class StringUtils {
         if (texto == null || texto.isEmpty()) return texto;
         return texto.substring(0, 1).toUpperCase() + texto.substring(1).toLowerCase();
     }
+
+    // contar el número de palabras en un String
+    public static int countWords(String texto) {
+        if (texto == null || texto.trim().isEmpty()) return 0;
+        return texto.trim().split("\\s+").length;
+    }
 }
