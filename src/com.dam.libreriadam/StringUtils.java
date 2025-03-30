@@ -112,4 +112,9 @@ public class StringUtils {
         if (texto == null || texto.trim().isEmpty()) return 0;
         return texto.trim().split("\\s+").length;
     }
+
+    // Reemplazar vocales por "!"
+    public static String replaceVowel(String palabra) {
+        return palabra.replaceAll("[aeiouAEIOU]","!");
+    }
 }
