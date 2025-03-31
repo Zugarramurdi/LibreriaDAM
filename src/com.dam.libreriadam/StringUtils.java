@@ -72,6 +72,18 @@ public class StringUtils {
         return resultado.toString();
     }
 
+    public static String toLowerCamelCase(String texto) {
+        if (texto == null || texto.isEmpty()) return texto;
+        String[] palabras = texto.toLowerCase().split("\\s+");
+        StringBuilder resultado = new StringBuilder(palabras[0]);
+
+        for (int i=1; i<palabras.length; i++) {
+            resultado.append(Character.toUpperCase(palabras[i].charAt(0))).append(palabras[i].substring(1).toLowerCase());
+        }
+
+        return resultado.toString();
+    }
+
     // convertir un String a formato SnakeCase
     public static String toSnakeCase(String texto) {
         if (texto == null || texto.isEmpty()) return texto;
