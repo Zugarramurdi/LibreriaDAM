@@ -57,4 +57,9 @@ public class MathUtils {
         }
         return new int[] {};
     }
+
+    // Convertir un número decimal a binario
+    public static String decimalToBinary(int numDecimal) {
+        return Integer.toBinaryString(numDecimal);
+    }
 }

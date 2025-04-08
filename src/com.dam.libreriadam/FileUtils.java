@@ -84,4 +84,21 @@ public class FileUtils {
         new FileWriter(ruta, false).close();  // Sobreescribe con nada
     }
 
+    // Muestra el contenido de un directorio y sus subdirectorios
+    static void printContent(String ruta) {
+        try {
+            File directorio = new File(ruta);
+            File[] ficheros = directorio.listFiles();
+            for (File f : ficheros) {
+                System.out.println(f.getName());
+                if (f.isDirectory()) {
+                    System.out.println("\n"+f.getAbsolutePath());
+                    printContent(f.getAbsolutePath());
+                }
+            }
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }
