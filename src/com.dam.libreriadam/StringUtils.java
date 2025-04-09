@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.Set;
+import java.util.HashSet;
 
 public class StringUtils {
 
@@ -128,5 +130,21 @@ public class StringUtils {
     // Reemplazar vocales por "!"
     public static String replaceVowel(String palabra) {
         return palabra.replaceAll("[aeiouAEIOU]","!");
+    }
+
+    // Transforma un String reordenando sus letras y te imprime una lista con todas las variantes
+    public static List<String> permutacion(String s) {
+        if(s.length() <= 1){
+          return Collections.singletonList(s);
+        }
+      Set<String> result = new HashSet<>();
+      for(int i = 0; i<s.length(); i++){
+        char currentChar = s.charAt(i);
+        String remainder = s.substring(0,i) + s.substring(i+1);
+        for (String prm : permutacion(remainder)){
+          result.add(currentChar + prm);
+        }
+      }
+        return new ArrayList<>(result);
     }
 }
