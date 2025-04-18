@@ -1,5 +1,7 @@
 # 💻 LibreriaDAM 💻
 
+# **WORK IN PROGRESS...**
+
 ## 📚 Descripcion 📚
 **LibreriaDAM** es una librería de utilidades en Java diseñada para facilitar el desarrollo de aplicaciones multiplataforma. Contiene funciones reutilizables y herramientas para manejar cadenas de texto, estructuras de datos, operaciones matemáticas, multihilos, gestión de archivos y fechas, entre otras. Ideal para optimizar el proceso de programación y reducir la necesidad de escribir código repetitivo.
 
@@ -59,12 +61,12 @@ Si deseas colaborar en este proyecto, sigue estos pasos:
 ### **1. Fork de este repositorio y clonalo desde tu IDE de uso habitual**
 
 ### **2. Crea una rama con el nombre de tu mejora:**
-  - git checkout -b nombre-nueva-rama
+  - ```git checkout -b nombre-nueva-rama```
 
 ### **3. Realiza los cambios y haz un commit:**
-  - git commit -m "Añadida nueva función en StringUtils"
+  - ```git commit -m "Añadida nueva función en StringUtils"```
 ### **4. Sube los cambios a tu Fork:**
-  - git push origin nombre-nueva-rama
+  - ```git push origin nombre-nueva-rama```
 ### **5. Abre un Pull Request y explica tus cambios.**
 
 Si tienes dudas, revisa las Issues o crea una nueva para discutir mejoras.
